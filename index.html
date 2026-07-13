@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -610,11 +611,10 @@ footer{padding:48px 0; border-top:1px solid var(--line);}
         <li data-en="Security awareness training" data-es="Capacitación en concientización">Security awareness training</li>
         <li data-en="Bilingual: English & Spanish" data-es="Bilingüe: inglés y español">Bilingual: English & Spanish</li>
       </ul>
-      <form class='site-form' id='contactForm' method='POST' name='contact'>
-        <input type="hidden" name="form-name" value="contact">
-        <p style="display:none;">
-          <label>Don't fill this out: <input name="bot-field"></label>
-        </p>
+      <form class="site-form" id="contactForm">
+        <input type="hidden" name="access_key" value="07e32a72-fe1d-41e2-be0c-bb8a2af1de0d">
+        <input type="hidden" name="subject" value="New contact form submission from CyberBúho website">
+        <input type="checkbox" name="botcheck" style="display:none;" tabindex="-1" autocomplete="off">
         <div class="field">
           <label data-en="Name *" data-es="Nombre *">Name *</label>
           <input type="text" name="name" required>
@@ -637,7 +637,7 @@ footer{padding:48px 0; border-top:1px solid var(--line);}
       </form>
       <div style="margin-top:24px; padding-top:24px; border-top:1px solid var(--line); text-align:center;">
         <div style="background:#fff; border-radius:10px; padding:12px; display:inline-block;">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAHCCAIAAADzel4SAAAQAElEQVR4nOzd0XKkOBaEYffGvP8r915URIejp0qDSZLMI/7vzluLJCRxTGNy6p/fv39/AQDO+t8XAEBAGQUACWUUACSUUQCQUEYBQEIZBQAJZRQAJJRRAJBQRgFAQhkFAAllFAAklFEAkFBGAUBCGQUACWUUACSUUQCQUEYBQEIZBQAJZRQAJJRRAJBQRgFAQhkFAAllFAAklFEAkFBGAUBCGQUACWUUACSUUQCQUEYBQEIZBQAJZRQAJJRRAJBQRgFAQhkFAAllFAAklFEAkFBGAUBCGQUACWUUACSUUQCQUEYBQEIZBQAJZRQAJP8HAAD///o/PskAAAAGSURBVAMADKVK/eqdYnMAAAAASUVORK5CYII=" alt="QR code linking to cyberbuho.com" width="140" height="140" style="display:block; width:140px; height:140px;">
+          <img src="data:image/png;base64,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" alt="QR code linking to cyberbuho.com" width="140" height="140" style="display:block; width:140px; height:140px;">
         </div>
         <p style="margin-top:10px; font-family:var(--mono); font-size:12px; letter-spacing:0.06em; color:var(--steel);" data-en="Scan to visit cyberbuho.com" data-es="Escanea para visitar cyberbuho.com">Scan to visit cyberbuho.com</p>
       </div>
@@ -684,44 +684,7 @@ footer{padding:48px 0; border-top:1px solid var(--line);}
 let lang = 'en';
 const langBtn = document.getElementById('langBtn');
 const langLabel = document.getElementById('langLabel');
-let audioCtx = null;
-
-function playPianoNote(ctx, time, freq, dur, vol) {
-  const osc = ctx.createOscillator();
-  const osc2 = ctx.createOscillator();
-  const gain = ctx.createGain();
-  osc.type = 'triangle';
-  osc2.type = 'sine';
-  osc.frequency.setValueAtTime(freq, time);
-  osc2.frequency.setValueAtTime(freq * 2, time);
-  gain.gain.setValueAtTime(0.0001, time);
-  gain.gain.exponentialRampToValueAtTime(vol, time + 0.006);
-  gain.gain.exponentialRampToValueAtTime(0.0001, time + dur);
-  osc.connect(gain);
-  osc2.connect(gain);
-  gain.connect(ctx.destination);
-  osc.start(time); osc.stop(time + dur);
-  osc2.start(time); osc2.stop(time + dur);
-}
-
-function playBachStab() {
-  if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-  const ctx = audioCtx;
-  const t = ctx.currentTime + 0.02;
-  // quick dramatic descending flourish, Baroque-toccata flavor
-  const flourish = [880.00, 830.61, 783.99, 739.99, 698.46];
-  flourish.forEach((f, i) => {
-    playPianoNote(ctx, t + i * 0.04, f, 0.14, 0.22);
-  });
-  // bold final chord (minor, low register) for the dramatic hit
-  const chordTime = t + flourish.length * 0.04 + 0.03;
-  [130.81, 155.56, 196.00, 261.63, 311.13].forEach(f => {
-    playPianoNote(ctx, chordTime, f, 1.0, 0.26);
-  });
-}
-
 langBtn.addEventListener('click', () => {
-  playBachStab();
   lang = lang === 'en' ? 'es' : 'en';
   document.documentElement.lang = lang;
   langLabel.textContent = lang === 'en' ? 'ES' : 'EN';
@@ -735,6 +698,7 @@ langBtn.addEventListener('click', () => {
 
 // synthesized techno beat (Web Audio API, ~10 seconds)
 const soundBtn = document.getElementById('soundBtn');
+let audioCtx = null;
 let isPlaying = false;
 
 function playKick(ctx, time) {
@@ -811,7 +775,7 @@ function playTechnoBeat() {
 
 soundBtn.addEventListener('click', playTechnoBeat);
 
-// contact form submission (Netlify Forms)
+// contact form submission (Web3Forms)
 const contactForm = document.getElementById('contactForm');
 const formStatus = document.getElementById('formStatus');
 const submitBtn = document.getElementById('submitBtn');
@@ -825,16 +789,22 @@ contactForm.addEventListener('submit', (e) => {
   submitBtn.textContent = lang === 'en' ? submitBtn.dataset.enSending : submitBtn.dataset.esSending;
   formStatus.style.display = 'none';
   const data = new FormData(contactForm);
-  fetch('/', {
+  fetch('https://api.web3forms.com/submit', {
     method: 'POST',
-    headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-    body: new URLSearchParams(data).toString()
+    headers: {'Accept': 'application/json'},
+    body: data
   })
-  .then(() => {
-    formStatus.textContent = statusText.success[lang];
-    formStatus.className = 'form-status success';
+  .then(res => res.json())
+  .then(result => {
+    if (result.success) {
+      formStatus.textContent = statusText.success[lang];
+      formStatus.className = 'form-status success';
+      contactForm.reset();
+    } else {
+      formStatus.textContent = statusText.error[lang];
+      formStatus.className = 'form-status error';
+    }
     formStatus.style.display = 'block';
-    contactForm.reset();
   })
   .catch(() => {
     formStatus.textContent = statusText.error[lang];
@@ -962,4 +932,5 @@ stages.forEach(stage => {
   }
 })();
 </script>
-</body></html>
+</body>
+</html>
